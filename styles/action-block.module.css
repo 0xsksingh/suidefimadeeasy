@@ -1,0 +1,53 @@
+.block {
+  display: block;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  background-color: var(--block-color);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  position: relative;
+  max-width: 500px;
+  width: 450px;
+  min-width: 450px;
+}
+
+.protocolName {
+  font-size: 2rem;
+  font-weight: 700;
+  background-size: 100%;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background: -webkit-linear-gradient(90deg, #ffffff, #ff89ab);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.actionName {
+  font-size: 1.5rem;
+  color: #ffffff;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.actionNameWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.actionInputsWrapper>* {
+  margin-top: 20px;
+}
+
+.actionInputField {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.actionInputField>* {
+  margin-right: 10px;
+}
